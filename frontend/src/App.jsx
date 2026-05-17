@@ -7,7 +7,7 @@ import Chatbot from './pages/Chatbot';
 import SavedShortlists from './pages/SavedShortlists';
 import { Cpu, HelpCircle, FileJson } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://ai-candidate-salection.onrender.com/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('candidates');
